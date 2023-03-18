@@ -1,0 +1,57 @@
+
+.main-wrapper{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper{
+  /* width: 160px; */
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+ 
+}
+.square{
+  width: 80px;
+  aspect-ratio: 1/1;
+  transition: all .7s ease-in-out;
+  /* transition: top ease 2s; */
+
+}
+.square:hover{
+  /* position: absolute; */
+  transform: rotate(90deg);
+  /* transition: top ease 0.5s; */
+}
+/* .square:is(:hover, :focus) {
+
+} */
+.square.top-left{
+  background-color: red;
+}
+.square.top-left:hover{
+  /* margin-left: -100px; */
+}
+
+.square.top-right{
+  background-color: yellow;
+}
+.square.top-right:hover{
+  /* margin-right: -100px; */
+}
+.square.bottom-right{
+  background-color: green;
+}
+.square.bottom-right:hover{
+  /* margin-right: -100px; */
+}
+.square.bottom-left{
+  background-color: blue;
+}
+.square.bottom-left:hover{
+  /* right:-100px; */
+}

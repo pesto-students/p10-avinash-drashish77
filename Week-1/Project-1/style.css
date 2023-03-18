@@ -84,6 +84,7 @@ button[type="submit"]:hover{
     opacity: 0.9;
     transition: all 1s;
 }
+
 .footer-section{
     margin:0 auto;
     width: 100%;
