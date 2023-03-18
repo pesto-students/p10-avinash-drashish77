@@ -1,13 +1,18 @@
 
-# CSS Project
+# Simple Hover animation
 
-This is a project build using simple html and css.
+This is an example of group hover without using any css framework.
 
 
 ## Sections
-- Main section where a grid is holding two columns in big screens and a single column in mobile screens.
-- A Form element with basic form fields.
+- there are basically just one section with four square.
+
+## Functionality
+- When hover over the square it will open up like flower and closes when not hovered.
+
+
 ## Tech Stack
 
 - HTML
 - CSS
+- JavaScript
