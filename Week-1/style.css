@@ -32,11 +32,21 @@
 .left-box{
     /* border: 1px solid #000; */
 }
+.para-head{
+  margin:20px 0 10px;
+  color: blue;
+
+}
 .input-label{
     margin: 20px 0;
 }
+.form-section{
+  margin-bottom: 50px;
+  background-color: lightgoldenrodyellow;
+}
 .form{
-    margin-bottom: 100px;
+  padding: 20px;
+    
 }
 button[type="submit"]{
     padding: 10px 20px;
@@ -57,14 +67,21 @@ button[type="submit"]:hover{
 }
 .footer-section p{
     font-size: 14px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     opacity: 0.8;
     text-align: center;
 }
 @media screen and (max-width: 640px) {
   .container {
     max-width: 640px;
+    padding: 0 20px;
   }
+  .grid{
+    grid-template-columns: 1fr;
+  }
+  .main-heading {
+    width: 80%;
+}
 }
 @media screen and (max-width: 768px) {
   .container {
