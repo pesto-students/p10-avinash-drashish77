@@ -1,0 +1,54 @@
+.main-wrapper{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.heading{
+  position: absolute;
+  margin: 70px 60px;
+}
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+ 
+}
+.square{
+  position: relative;
+  z-index: 1;
+  width: 80px;
+  aspect-ratio: 1/1;
+  transition: all .7s ease-in-out;
+}
+
+.square.top-left{
+  background-color: red;
+}
+
+.square.top-right{
+  background-color: yellow;
+}
+
+.square.bottom-right{
+  background-color: green;
+}
+
+.square.bottom-left{
+  background-color: blue;
+}
+
+.tl{
+  transform: translateX(-80px) rotate(90deg);
+}
+.tr{
+  transform: translateX(80px) rotate(-90deg);
+}
+.br{
+  transform: translateX(80px) rotate(90deg);
+}
+.bl{
+ transform: translateX(-80px) rotate(-90deg);
+}
