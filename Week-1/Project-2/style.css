@@ -19,6 +19,9 @@
     position: relative;
 
 }
+.top p:first-of-type{
+    margin-top: 5px;
+}
 .sidebar{
     display: flex;
     position: absolute;
@@ -142,8 +145,15 @@ font-weight: bold;
     display: flex;
 }
 @media screen and (max-width: 768px) {
+
  .sidebar{
     width: 10vw;
+ }
+ .content-box, .play-menu{
+    font-size: 10px;
+ }
+ .content-box .main-heading{
+    font-size: 16px;
  }
  .left{
     width: 10vw;
